@@ -16,5 +16,10 @@ namespace BMS
         {
             InitializeComponent();
         }
+
+        private void btnBig_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello and good morning");
+        }
     }
 }

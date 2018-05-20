@@ -28,13 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btnBig = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // btnBig
+            // 
+            this.btnBig.Location = new System.Drawing.Point(159, 94);
+            this.btnBig.Name = "btnBig";
+            this.btnBig.Size = new System.Drawing.Size(357, 157);
+            this.btnBig.TabIndex = 0;
+            this.btnBig.Text = "I\'m a bloody big button";
+            this.btnBig.UseVisualStyleBackColor = true;
+            this.btnBig.Click += new System.EventHandler(this.btnBig_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnBig);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnBig;
     }
 }
 
