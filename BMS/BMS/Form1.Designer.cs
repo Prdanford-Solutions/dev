@@ -37,7 +37,7 @@
             this.btnBig.Name = "btnBig";
             this.btnBig.Size = new System.Drawing.Size(357, 157);
             this.btnBig.TabIndex = 0;
-            this.btnBig.Text = "I\'m a bloody big button";
+            this.btnBig.Text = "I\'m a bloody big button - bug fixed";
             this.btnBig.UseVisualStyleBackColor = true;
             this.btnBig.Click += new System.EventHandler(this.btnBig_Click);
             // 
